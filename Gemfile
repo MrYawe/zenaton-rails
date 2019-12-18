@@ -38,7 +38,9 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'sidekiq'
-gem 'zenaton'
+gem 'zenaton', '>= 0.4.2'
+# gem 'zenaton', :path => '/Users/yannis/Zenaton/zenaton-ruby'
+# gem 'zenaton', :github => 'Zenaton/zenaton-ruby', :branch => 'master'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

@@ -19169,3 +19169,9 @@ Zenaton::NotImplementedZenaton::NotImplemented)
 /Users/yannis/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/json-2.2.0/lib/json/common.rb:104: warning: previous definition of MinusInfinity was here
 /Users/yannis/.asdf/installs/ruby/2.6.2/lib/ruby/2.6.0/json/common.rb:129: warning: already initialized constant JSON::UnparserError
 /Users/yannis/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/json-2.2.0/lib/json/common.rb:129: warning: previous definition of UnparserError was here
+/Users/yannis/Zenaton/lab/zenaton-sidekiq/app/tasks/trip_advisor_reviews_scraping_task.rb:5:in `/': divided by 0 (ZeroDivisionError)
+	from /Users/yannis/Zenaton/lab/zenaton-sidekiq/app/tasks/trip_advisor_reviews_scraping_task.rb:5:in `handle'
+	from /Users/yannis/.zenaton/lib/worker-0.7.8/priv/ruby/lib/zenaton/worker/v1/worker.rb:28:in `process'
+	from /Users/yannis/.zenaton/lib/worker-0.7.8/priv/ruby/lib/zenaton/loader/slave.rb:35:in `process_job'
+	from /Users/yannis/.zenaton/lib/worker-0.7.8/priv/ruby/lib/zenaton/loader/slave.rb:22:in `process'
+	from /Users/yannis/.zenaton/lib/worker-0.7.8/priv/ruby/scripts/slave.rb:21:in `<main>'
