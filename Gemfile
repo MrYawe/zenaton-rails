@@ -38,7 +38,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'sidekiq'
-gem 'zenaton', '>= 0.4.2'
+gem 'zenaton', '>= 0.6.0'
 # gem 'zenaton', :path => '/Users/yannis/Zenaton/zenaton-ruby'
 # gem 'zenaton', :github => 'Zenaton/zenaton-ruby', :branch => 'master'
 
