@@ -3,6 +3,5 @@ class ReviewsAnalysisWorkflow < Zenaton::Interfaces::Workflow
 
   def handle
     TripAdvisorReviewsScrapingTask.new.dispatch
-    # HelloTask.new.dispatch
   end
 end
